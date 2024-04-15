@@ -8,7 +8,7 @@
 /* Basic Styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color:#fdd704;
   line-height: 1.6;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .header {
-  background-color: #333;
+  background-color: #6b2e03;
   color: #fff;
   padding: 20px 0;
 }
@@ -47,12 +47,12 @@ body {
 }
 
 .intro-section {
-  background-color: #fff;
+  background-color: #898806;
   padding: 20px;
 }
 
 .footer {
-  background-color: #333;
+  background-color: #6b2e03;
   color: #fff;
   padding: 20px 0;
   text-align: center;
