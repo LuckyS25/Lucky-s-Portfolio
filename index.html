@@ -1,47 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucky Singh</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <title>Lucky - Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
-<body>
 
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <h1>Lucky Singh</h1>
-            <nav>
+<body>
+    <header>
+        <nav>
+            <div class="left">Lucky's Portfolio</div>
+            <div class="right">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
 
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hii, My Name is <span class="purple">Lucky Singh</span>
 
-    <!-- Main Content -->
-    <main class="main-content">
-        <div class="container">
-            <section class="intro-section">
-                <h2>Welcome to my profile :)</h2>
-                <p>I am Lucky Singh.I'm 2nd year student pursuing B.tech in Computer Science.  </p>
-                <p> More coming.. Stay here.. :)</p>
-            </section>
-        </div>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="PortfolioPHOTO.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray"> My experience upto now</span>
+            <h1>About Me </h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="PortfolioPHOTO.jpg" alt="">
+                    <div class="vertical-title">
+                        Primary School (2010-2015)
+                    </div>
+                    <div class="vertical-desc">
+                        I completed my primary schooling from a school in my village.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="PortfolioPHOTO.jpg" alt="">
+                    <div class="vertical-title">
+                        10th Standard(2015-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        I completeed my High School.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="PortfolioPHOTO.jpg" alt="">
+                    <div class="vertical-title">
+                        12th Standard (2020-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        I completd my 12th Standard from Purkal Youth Development Society (PYDS) Learning Academy. This
+                        school is situated in Purkal village in Dehradun. 
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="PortfolioPHOTO.jpg" alt="">
+                    <div class="vertical-title">
+                        Collage
+                    </div>
+                    <div class="vertical-desc">
+                        I started my collage days in 2023
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="PortfolioPHOTO.jpg" alt="">
+                    <div class="vertical-title">
+                        Upcoming..
+                    </div>
+                    <div class="vertical-desc">
+                        <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, rem nihil corporis vel a
+                        nemo mollitia eum quas quod provident. -->
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
     </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Your Website. All rights reserved.</p>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Lucky's portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-rights">
+            Copyright &#169; Lucky || All rights reserved
         </div>
     </footer>
 
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Programmer', 'Web Designer', 'Vider Editor', 'Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="script.js"></script>
 </body>
+
 </html>
